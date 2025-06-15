@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novaplug | Premium Aesthetic Room Decor (Coming Soon)</title>
+    <meta name="description" content="Curated bedroom decor for feminine, masculine and unique styles - Amazon links coming soon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Brand Colors */
+            --primary: #6a3093;
+            --primary-light: #9d65c9;
+            --pink-accent: #d48a9d;
+            --blue-accent: #5d8aa8;
+            --dark: #1a1a1a;
+            --silver: #f5f5f7;
+            --text: #333;
+            --text-light: #777;
+            
+            /* Default Light Mode */
+            --bg: var(--silver);
+            --card-bg: white;
+            --accent: var(--primary);
+            --header-bg: white;
+        }
+
+        [data-theme="dark"] {
+            --bg: #252525;
+            --card-bg: #333;
+            --header-bg: #222;
+            --text: #f0f0f0;
+            --text-light: #ccc;
+            --accent: var(--primary-light);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            transition: all 0.3s ease;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Approval Notice Banner */
+        .approval-notice {
+            background: #fff8e1;
+            color: #5d4037;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 30px 0;
+            text-align: center;
+            border-left: 4px solid #ffa000;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.9; }
+            50% { opacity: 1; }
+            100% { opacity: 0.9; }
+        }
+
+        header {
+            background: var(--header-bg);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        /* [Keep all other CSS styles from previous version] */
+
+        /* Modified Amazon Button for Pre-Approval */
+        .amazon-btn {
+            display: block;
+            background: #b0b0b0;
+            color: white;
+            padding: 12px 15px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            transition: all 0.2s;
+        }
+
+        .amazon-btn:hover {
+            background: #999;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">Novaplug</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="approval-notice">
+            🚧 We're currently applying for Amazon Associates - product links coming soon! 🚧
+        </div>
+
+        <section class="hero">
+            <h1 class="hero-title">Live With Mystery & Style</h1>
+            <p class="hero-subtitle">Premium aesthetic bedroom essentials coming soon</p>
+        </section>
+
+        <!-- Feminine Decor Section -->
+        <section id="feminine">
+            <h2>Feminine Aesthetic Preview</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/71hUwR3XwQL._AC_SL1500_.jpg" alt="Silk Duvet Preview" class="product-image" loading="lazy">
+                    <div class="product-info">
+                        <h3 class="product-title">Example: Silk Cloud Duvet</h3>
+                        <div class="product-price">$XX.XX</div>
+                        <div class="product-rating">★★★★☆ (4.X)</div>
+                        <button class="amazon-btn" onclick="showComingSoon()">View on Amazon (Soon)</button>
+                    </div>
+                </div>
+                <!-- Add more feminine preview products -->
+            </div>
+        </section>
+
+        <!-- [Keep other sections with same modification] -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="mailto:novaplug.brand@gmail.com" class="contact-email">Contact: novaplug.brand@gmail.com</a>
+            <p class="disclaimer">
+                Novaplug is preparing to participate in the Amazon Services LLC Associates Program.
+                All product imagery is for demonstration purposes only.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function showComingSoon() {
+            alert("Amazon affiliate links will be active soon!\n\nWe're currently going through Amazon's approval process.\n\nContact novaplug.brand@gmail.com for inquiries.");
+        }
+
+        // [Keep all other JavaScript functionality]
+    </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
